@@ -39,7 +39,8 @@ except Exception as e:
 # --- Configure paths (EDIT ONLY THESE TWO LINES IF NEEDED) ---
 
 PYTHON_EXE = r"C:\Program Files\ANSYS Inc\v252\commonfiles\CPython\3_10\winx64\Release\python\python.exe"
-GUI_SCRIPT = str(Path(__file__).resolve().parent / "optimizer_gui.py")
+GUI_SCRIPT = r"C:\Users\2948856C\Documents\AI-DAD\00_integration_GUI\optimizer_gui.py"
+# GUI_SCRIPT = str(Path(__file__).resolve().parent / "optimizer_gui.py")
 
 # PYTHON_EXE = r"C:\Users\2948856C\OneDrive - University of Glasgow\0_PHD\2_software_projects\2_pysadeaGUI\ai-dad-gui\sadeagui_env\Scripts\python.exe"
 # GUI_SCRIPT = r"C:\Users\2948856C\OneDrive - University of Glasgow\0_PHD\2_software_projects\9_AllGUI\ai-dad-gui\aide_gui_run.py"
